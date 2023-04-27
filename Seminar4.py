@@ -74,9 +74,3 @@ def Simple(n, i):
         return Simple(n, i - 1)
 print(Simple(n, i)) 
 """
-
-n = int(input("Введите число: "))
-stroka = "3 4 6 8 9"
-
-def revers(stroka):
-    if len(stroka):
